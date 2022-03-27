@@ -971,7 +971,7 @@ function library:Window(options)
                     end
 
                     function main_functions:Slider(options)
-                        local Title = options.Title or 'Slider'
+                        local Title = options.Text or 'Slider'
                         local Min = options.Min or 0 
                         local Max = options.Max or 100 
                         local Def = options.Def or 50
