@@ -20,7 +20,7 @@ local tabsection = tab:TabSection({
 })
 
 -- // NewColumn \\ --
-local column = tabsection:({
+local column = tabsection:AddColumn({
     <string> Title
 })
 
