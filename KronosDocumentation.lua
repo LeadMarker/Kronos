@@ -47,7 +47,7 @@ local toggle = section:Toggle({
 toggle:SetState(<bool>)
 
 -- // Textlabel \\ -- 
-local textlabel = section:Textlabel({
+local textlabel = section:TextLabel({
     <string> Text
 })
     
